@@ -8,4 +8,4 @@ DATABASES = {
     }
 }
 
-DEFAULT_SECRET_KEY = ')@@ui9%belfbmv8=$^*kqpj$0v05l!xy)h5t*ux@71v=7@e^z7'
+SECRET_KEY = os.environ.get('SECRET_KEY', DEFAULT_SECRET_KEY)
