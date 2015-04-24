@@ -5,7 +5,7 @@ from .views import HomePageView
 
 urlpatterns = [
     url(r'^$', HomePageView.as_view(), name='home'),
-    # url(r'^blog/', include('blog.urls')),
+    url(r'^stream/', include('video_share.urls')),
 
     url(r'^admin/', include(admin.site.urls)),
 ]
