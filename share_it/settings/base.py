@@ -37,6 +37,8 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'users',
+    'accounts',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -79,11 +81,6 @@ TEMPLATES = [
 WSGI_APPLICATION = 'share_it.wsgi.application'
 
 
-# Database
-# https://docs.djangoproject.com/en/1.8/ref/settings/#databases
-
-
-
 # Internationalization
 # https://docs.djangoproject.com/en/1.8/topics/i18n/
 
@@ -102,3 +99,9 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.8/howto/static-files/
 
 STATIC_URL = '/static/'
+
+AUTH_USER_MODEL = 'accounts.User'
+
+USERS_CREATE_SUPERUSER = True
+USERS_SUPERUSER_EMAIL = 'admin@shrouk.com'
+USERS_SUPERUSER_PASSWORD = 'shroukADMIN.cOm'
