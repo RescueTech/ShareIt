@@ -1,0 +1,539 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"date",
+				"datetime	class"
+			],
+			[
+				"Re",
+				"RetrieveUpdateAPIView"
+			],
+			[
+				"wr",
+				"write	function"
+			],
+			[
+				"o",
+				"Offer	class"
+			],
+			[
+				"con",
+				"ContactUs	class"
+			],
+			[
+				"Ass",
+				"assertEqual	function"
+			],
+			[
+				"t",
+				"time_in	function"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 33.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"pac",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"re",
+				"Package Control: Remove Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"remve",
+				"Package Control: Remove Package"
+			]
+		],
+		"width": 530.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/zee/workspace/rescuetech/share_it"
+	],
+	"file_history":
+	[
+		"/home/zee/workspace/rescuetech/share_it/share_it.sublime-workspace",
+		"/home/zee/cube/super_market/products/views/products.py",
+		"/home/zee/.config/sublime-text-3/Packages/supermarket.sublime-project",
+		"/home/zee/cube/super_market/products/models.py",
+		"/home/zee/cube/super_market/templates/admin/base_site.html",
+		"/home/zee/cube/super_market/super_market/urls.py",
+		"/home/zee/cube/super_market/templates/base.html",
+		"/home/zee/cube/super_market/products/admin.py",
+		"/home/zee/cube/super_market/templates/admin/base.html",
+		"/home/zee/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/zee/cube/super_market/super_market/settings/base.py",
+		"/home/zee/cube/super_market/accounts/apps.py",
+		"/home/zee/cube/super_market/products/forms.py",
+		"/home/zee/cube/super_market/products/serializers.py",
+		"/home/zee/cube/super_market/.gitignore",
+		"/home/zee/cube/super_market/products/urls.py",
+		"/home/zee/cube/super_market/super_market/views.py",
+		"/home/zee/cube/super_market/templates/search/search.html",
+		"/home/zee/cube/super_market/products/api.py",
+		"/home/zee/cube/super_market/accounts/tests/test_api.py",
+		"/home/zee/.virtualenvs/market_cube/lib/python3.4/site-packages/django/conf/urls/i18n.py",
+		"/home/zee/cube/super_market/wishlists/tests/test_api.py",
+		"/home/zee/cube/super_market/wishlists/api_urls.py",
+		"/home/zee/cube/super_market/wishlists/api.py",
+		"/home/zee/cube/super_market/products/api_urls.py",
+		"/home/zee/cube/super_market/super_market/routers.py",
+		"/home/zee/cube/super_market/products/views.py",
+		"/home/zee/cube/super_market/wishlists/tests/__pycache__/test_api.py",
+		"/home/zee/cube/super_market/accounts/api.py",
+		"/home/zee/cube/super_market/supermarket_map/tests/test_api.py",
+		"/home/zee/cube/super_market/accounts/serializers.py",
+		"/home/zee/cube/super_market/accounts/models.py",
+		"/home/zee/cube/super_market/manage.py",
+		"/home/zee/.virtualenvs/market_cube/lib/python3.4/site-packages/django/contrib/admin/util.py",
+		"/home/zee/.virtualenvs/market_cube/lib/python3.4/site-packages/django/utils/deprecation.py",
+		"/home/zee/.virtualenvs/market_cube/lib/python3.4/site.py",
+		"/home/zee/.virtualenvs/market_cube/lib/python3.4/site-packages/haystack/__init__.py",
+		"/home/zee/.virtualenvs/market_cube/lib/python3.4/site-packages/haystack/utils/__init__.py",
+		"/home/zee/.virtualenvs/market_cube/lib/python3.4/site-packages/haystack/utils/loading.py",
+		"/home/zee/cube/super_market/branches/serializers.py",
+		"/home/zee/cube/super_market/templates/account/login.html",
+		"/home/zee/cube/super_market/templates/account/email.html",
+		"/home/zee/cube/super_market/templates/account/email_confirm.html",
+		"/home/zee/cube/super_market/templates/account/logout.html",
+		"/home/zee/cube/super_market/templates/account/password_change.html",
+		"/home/zee/cube/super_market/templates/account/password_reset.html",
+		"/home/zee/cube/super_market/templates/account/password_reset_from_key.html",
+		"/home/zee/cube/super_market/templates/account/password_reset_from_key_done.html",
+		"/home/zee/cube/super_market/templates/account/password_set.html",
+		"/home/zee/cube/super_market/templates/account/signup.html",
+		"/home/zee/cube/super_market/templates/account/signup_closed.html",
+		"/home/zee/cube/super_market/templates/account/verified_email_required.html",
+		"/home/zee/cube/super_market/templates/socialaccount/connections.html",
+		"/home/zee/cube/super_market/templates/socialaccount/login_cancelled.html",
+		"/home/zee/cube/super_market/templates/socialaccount/signup.html",
+		"/home/zee/workspace/ptc/execute.py",
+		"/home/zee/workspace/ptc/data/projects.json",
+		"/home/zee/workspace/ptc/data/logs/db2.json",
+		"/home/zee/workspace/ptc/data/logs/html5-edx.json",
+		"/home/zee/workspace/ptc/p_time.py",
+		"/home/zee/workspace/ptc/object_manager.py",
+		"/home/zee/workspace/ptc/data/logs/datasci101.json",
+		"/home/zee/Downloads/spark_tutorial_student.py",
+		"/home/zee/workspace/ptc/fms.py",
+		"/home/zee/workspace/ptc/tests.py/tests_functional.py",
+		"/home/zee/workspace/ptc/pms.py",
+		"/home/zee/workspace/ptc/log.py",
+		"/home/zee/workspace/ptc/ptc.py",
+		"/home/zee/cube/super_market/products/templates/products/detail.html",
+		"/home/zee/Downloads/jsbin.datoqu.1.html",
+		"/home/zee/cube/super_market/wishlists/templates/wishlists/index.html",
+		"/home/zee/cube/super_market/products/templates/products/search_results.html",
+		"/home/zee/cube/super_market/products/templates/products/same_product.html",
+		"/home/zee/cube/super_market/products/templates/products/newest.html",
+		"/home/zee/cube/super_market/products/templates/products/best_selling.html",
+		"/home/zee/cube/super_market/products/templates/offers/seasonaloffers.html",
+		"/home/zee/cube/super_market/products/templates/categories/detail.html",
+		"/home/zee/cube/super_market/products/templates/categories/category_products.html",
+		"/home/zee/cube/super_market/advertising/templates/advertising/list.html",
+		"/home/zee/cube/super_market/static/dist/css/AdminLTE.css",
+		"/home/zee/cube/super_market/super_market/settings/heroku.py",
+		"/home/zee/cube/super_market/products/tests/test_admin.py",
+		"/home/zee/cube/super_market/Procfile",
+		"/home/zee/cube/super_market/super_market/wsgi.py",
+		"/home/zee/cube/super_market/test.html",
+		"/home/zee/apps/anaconda3/lib/python3.4/site-packages/mock.py",
+		"/home/zee/cube/super_market/contact/tests/tests.py",
+		"/home/zee/cube/super_market/templates/home.html",
+		"/home/zee/cube/super_market/static/js/bootstrap.min.js",
+		"/home/zee/cube/super_market/advertising/urls.py",
+		"/home/zee/workspace/ptc/data/logs/SPD1.json",
+		"/home/zee/cube/super_market/requirements/dev.pip",
+		"/home/zee/cube/super_market/requirements/common.pip",
+		"/home/zee/cube/super_market/products/search_indexes.py",
+		"/home/zee/cube/super_market/templates/search/indexes/products/offer_text.txt",
+		"/home/zee/cube/super_market/templates/search/indexes/products/product_text.txt",
+		"/home/zee/cube/super_market/wishlists/views.py",
+		"/home/zee/cube/super_market/templates/admin/basewithnewstyle.html",
+		"/home/zee/cube/super_market/accounts/urls.py",
+		"/home/zee/cube/super_market/wishlists/urls.py",
+		"/home/zee/cube/super_market/products/templates/offers/offer.html",
+		"/home/zee/cube/super_market/products/templates/categories/list.html",
+		"/home/zee/cube/super_market/products/templates/offers/detail.html",
+		"/home/zee/.virtualenvs/market_cube/lib/python3.4/site-packages/extra_views/contrib/mixins.py",
+		"/home/zee/cube/super_market/contact/models.py",
+		"/home/zee/cube/super_market/accounts/admin.py",
+		"/home/zee/cube/super_market/contact/admin.py",
+		"/home/zee/cube/super_market/accounts/views.py",
+		"/home/zee/cube/super_market/tasks.py",
+		"/home/zee/cube/super_market/products/views/templates.py",
+		"/home/zee/cube/super_market/products/views/search.py",
+		"/home/zee/cube/super_market/products/views/__init__.py",
+		"/home/zee/cube/super_market/templates/products/search_results.html",
+		"/home/zee/Dropbox/cube super market/products-index.html",
+		"/home/zee/cube/super_market/products/views/api.py",
+		"/home/zee/cube/super_market/contact/urls.py",
+		"/home/zee/cube/super_market/templates/products/category_detail.html",
+		"/home/zee/cube/super_market/products/__init__.py",
+		"/home/zee/.config/sublime-text-3/Packages/User/SublimeLinter.sublime-settings",
+		"/home/zee/.config/sublime-text-3/Packages/User/Anaconda.sublime-settings",
+		"/home/zee/.config/sublime-text-3/Packages/User/Package Control.sublime-settings",
+		"/home/zee/.config/sublime-text-3/Packages/User/Python (Django).sublime-settings",
+		"/home/zee/cube/super_market/static/js/js.cookie.js",
+		"/home/zee/cube/super_market/super_market/context_processors.py",
+		"/home/zee/cube/super_market/super_market/settings/context_processors.py",
+		"/home/zee/cube/super_market/accounts/forms.py",
+		"/home/zee/cube/super_market/templates/accounts/profile-settings.html",
+		"/home/zee/Dropbox/cube super market/sign-up.html"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"context",
+			"advert",
+			"adverrt",
+			"future",
+			"html",
+			"find",
+			"files",
+			"future",
+			"pub_date",
+			"footer",
+			"offer.im",
+			"offer",
+			"image.url",
+			"url",
+			".image",
+			"offer.image",
+			"model",
+			"test_user_remove_with_wrong_type",
+			"RemoveItem",
+			"test_user_can_not_remove_product_that_doesnt_exist_in_his_wishlist",
+			"test_user_can_remove_offer_from_his_wishlist",
+			"Avatar",
+			"'r'",
+			"image=",
+			"image",
+			"Response",
+			"CustomUserView",
+			"url",
+			"future",
+			"load url from",
+			"DeprecationWarning",
+			"importlib",
+			"\"rU\"",
+			"rU",
+			"ModelMultipleChoiceField",
+			"ModelChoiceField",
+			"requires_model_validation",
+			"get_formsets",
+			"util ",
+			"declared_fieldsets",
+			"SortedDict",
+			"unittest",
+			"tzinfo",
+			"importlib",
+			"dictconfig",
+			"django.utils",
+			"importlib",
+			"django.utils.importlib",
+			"users.models",
+			"users.models.User",
+			"utilities",
+			"util",
+			"django.contrib",
+			"django.contrib.admin.util",
+			"django.contrib.admin",
+			"whoosh_index",
+			"{% load url from future %}",
+			"load url from future",
+			"future ",
+			"future",
+			"get_full_name",
+			"GroupViewSet",
+			"CustomUserView",
+			"DEFAULT_AUTHENTICATION_CLASSES",
+			"ProductViewSet",
+			"time",
+			".minues",
+			"now.date",
+			"))\n",
+			"setting",
+			"datetime",
+			"set_string",
+			"ProductDetailView",
+			"fig",
+			"#",
+			"a",
+			" href=\"#\"",
+			"leapis.com/ajax/libs/jquery/2.1.0/jquery",
+			"googleapis",
+			"go",
+			"googleapi",
+			"ajax",
+			"glyphicon",
+			"ProductListView",
+			"static",
+			"skip",
+			"test_what_happens_when_br_admin_deletes_a_branch_from_a_product",
+			"signals",
+			"skip",
+			"Cookies",
+			"Cookies.get",
+			"NewProductList",
+			"self.request.COOKIES.get('branch_id', '0')",
+			"print",
+			"$next",
+			"a=",
+			"a",
+			"f=",
+			"f",
+			"offer.html",
+			"seasonaloffer",
+			"seasonal",
+			"SeasonalOffers",
+			"special_offer",
+			"sign up",
+			"qs.filter",
+			"qs",
+			"print",
+			"quer",
+			"offerView",
+			"if",
+			"Note",
+			"data",
+			"footer",
+			"special_offer",
+			"offsetwidth",
+			"jquery-1.9.1",
+			"url",
+			"product_list",
+			" L.E.",
+			"product_list",
+			"-price",
+			"product_detail",
+			"category_detail",
+			"product_list",
+			"offer_detail",
+			"glyphicon-heart",
+			"add-to-item"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"UserAvatarView",
+			"\"r\"",
+			"",
+			"Product",
+			"contact",
+			"square_sum",
+			"static",
+			"address",
+			"\"\"\""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "share_it.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"base_site",
+				"templates/admin/base_site.html"
+			],
+			[
+				"tasks",
+				"tasks.py"
+			],
+			[
+				"forms",
+				"products/forms.py"
+			],
+			[
+				"product/mode",
+				"products/models.py"
+			],
+			[
+				"main",
+				"static/css/main.css"
+			],
+			[
+				"base",
+				"super_market/settings/base.py"
+			],
+			[
+				"home",
+				"templates/home.html"
+			],
+			[
+				"inde",
+				"templates/admin/index.html"
+			],
+			[
+				"offer",
+				"products/templates/offer.html"
+			],
+			[
+				"base.py",
+				"super_market/settings/base.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 252.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

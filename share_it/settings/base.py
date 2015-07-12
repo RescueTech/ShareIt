@@ -39,6 +39,8 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'users',
     'accounts',
+    'django_extensions',
+    'widget_tweaks',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -104,4 +106,6 @@ AUTH_USER_MODEL = 'accounts.User'
 
 USERS_CREATE_SUPERUSER = True
 USERS_SUPERUSER_EMAIL = 'admin@shrouk.com'
-USERS_SUPERUSER_PASSWORD = 'shroukADMIN.cOm'
+USERS_SUPERUSER_PASSWORD = '123qwe'
+
+LOGIN_REDIRECT_URL = "/"

@@ -1,4 +1,5 @@
 {% load static %}
+{% load i18n %}
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -23,15 +24,19 @@
           <h1 class="text-center">Login</h1>
       </div>
       <div class="modal-body">
-          <form class="form col-md-12 center-block">
+          <form action ="{% url 'users_login' %}" method="POST" class="form col-md-12 center-block">
+            {% csrf_token %}
+            {{ form.non_field_errors}}
             <div class="form-group">
-              <input type="text" class="form-control input-lg" placeholder="Email">
+            {{ form.username.errors }}
+            <input class="form-control input-lg" placeholder="البريد الإلكتروني" {{ form.username }}
             </div>
             <div class="form-group">
-              <input type="password" class="form-control input-lg" placeholder="Password">
+              {{ form.password.errors }}
+              <input class="form-control input-lg" placeholder="كلمة المرور" {{ form.password }}
             </div>
             <div class="form-group">
-              <button class="btn btn-primary btn-lg btn-block">سجل الدخول</button>
+              <button class="btn btn-primary btn-lg btn-block" type="submit">{% trans "سجل الدخول" %}</button>
               <span class="pull-right"><a href="{% url 'users_register' %}">تسجيل</a></span>
               <span><a href="{% url 'users_password_reset' %}">نسيت كلمة المرور ؟</a></span>
             </div>
