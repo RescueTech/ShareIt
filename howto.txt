@@ -1,0 +1,15 @@
+how to setup the project:
+
+ctrl + shift + t
+sudo apt-get install python-dev libpq-dev libtiff4-dev libjpeg8-dev libfreetype6-dev liblcms1-dev libwebp-dev
+
+mkdir workspace
+cd workspace
+git clone https://github.com/RescueTech/ShareIt.git
+cd ShareIt
+pip install -r requirements.txt
+python manage.py migrate
+python manage.py createsuperuser
+	-> username: admin@shrouk.com
+	-> password:  **************
+python manage.py runserver 0.0.0.0:8000
